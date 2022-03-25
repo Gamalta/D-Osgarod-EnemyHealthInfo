@@ -1,0 +1,7 @@
+name: EnemyHealthInfo
+main: fr.gamalta.osgarod.enemyhealthinfo.EnemyHealthInfo
+version: 1.0
+author: Gamalta
+api-version: 1.16
+commands:
+  EnemyHealthInfo:

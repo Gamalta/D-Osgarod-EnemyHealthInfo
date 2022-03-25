@@ -1,0 +1,79 @@
+#Segment: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/boss/BarStyle.html
+#Color: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/boss/BarColor.html
+#Flag: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/boss/BarFlag.html
+#Material: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+#Mob: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/package-summary.html
+
+EnemyHealthInfo:
+  Reload:
+    Text: "vous venez de reload les configurations de ce plugin"
+    Permission: "dindon.enemy.health.info.reload"
+  Radius: 50
+  Scalaire: 0.98                                                    #nombre compris entre -1 et 1
+  Usage: "la commande est /actionbarhealth <enable/disable>"
+  ActionBar:
+    Default: true
+    Enable: "La vie de vôtre enemi vous sera informez dans vôtre actionbar"
+    Disable: "La vie de vôtre enemi vous sera pas informez dans vôtre actionbar"
+  BossBar:
+    Default: false
+    Enable: "La vie de vôtye enemi vous sera informez dans vôtre bossbar"
+    Disable: "La vie de vôtre enemi vous sera pas informez dans vôtre bossbar"
+  HealthIcon:
+    Full: "&4❤"
+    Half: "&c❤"
+    Empty: "&8❤"
+  Entity:
+    Default:
+      ActionBar: "&c&l%name% &6&l» %usestyle% %health%/%maxhealth%"
+      BossBar: "&c&l%name% &6&l» %health%/%maxhealth%"
+      Color: BLUE
+      Style: SOLID
+      Flags: PLAY_BOSS_MUSIC
+    'Cow': 
+      Name: "Vache"
+      ActionBar: "&c&l%name% ou la vache ! &6&l» %usestyle% %health%/%maxhealth%"
+      BossBar: "&c&l%name% ou la vache ! &6&l» %health%/%maxhealth%"
+      Color: BLUE
+      Style: SOLID
+      Flags: PLAY_BOSS_MUSIC
+    'Chicken': 
+      Name: "Poule"
+      Color: RED
+      Style: SOLID
+    'Pig': "Cochon"
+    'Sheep': "Mouton"
+    'Rabbit': "Lapin"
+    'Squid': "Poulpe"
+    'Skeleton': "Squelette"
+    'Zombie_Pigman': "Cochon zombie"
+    'Guardian': "Gardien"
+    'Lava_Slime': "MagmaCube"
+    'Villager': "Villageois"
+    'Mooshroom': "Champimeuh"
+    'Ozelot': "Ocelot"
+    'Wolf': "Loup"
+    'Horse': "Cheval"
+    'Spider': "Araignée"
+    'Cave Spider': "Araignée venimeuse"
+    'Witch': "Sorcière"
+    'Donkey': "Ane"
+    'Mule': "Mule"
+    'Shulker': "Shulker"
+    'Skeleton Horse': "Cheval squelette"
+    'Slime': "Slime"
+    'Blaze': "Blaze"
+    'Creeper': "Creeper"
+    'Vindication_Illager': "Illageur"
+    'Villager Golem': "Golem"
+    'Snowman': "Bonhomme de neige"
+    'Llama': "Llama"
+    'Evocation Illager': "Evocateur"
+    'Polar Bear': "Ours polaire"
+    'Wither Skeleton': "Wither squelette"
+    'Zombie Villager': "Zombie villageois"
+    'Zombie': "Zombie"
+  TransparentBlock:
+    - 'GLASS_PANE'
+    - 'RED_STAINED_GLASS_PANE'
+  
